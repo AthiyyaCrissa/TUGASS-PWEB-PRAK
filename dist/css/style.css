@@ -145,6 +145,13 @@ body{
 }
 .title-register{
     top: 50px;
+    opacity: 0;
+}
+.brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 .login-form, .register-form{
     position: absolute;
@@ -245,7 +252,7 @@ body{
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
-}
+
 
 .btn-submit i{
     font-size: 20px;
